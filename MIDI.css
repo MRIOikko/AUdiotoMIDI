@@ -1,0 +1,59 @@
+body{
+    
+    background-image: linear-gradient(to right, rgb(48, 44, 83), blue);
+    align-items: center;
+}
+
+
+.header{
+    background-image: linear-gradient(to right, rgb(0, 255, 34), rgb(0, 255, 179));
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 100px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 525px;
+}
+.file-spot{
+    margin-top: 25px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+
+    background-image: linear-gradient(to right, red, orange);
+    margin-left: 560px;
+}
+
+h1{
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+h2{
+    font-family: sans-serif;
+    color: black;
+}
+
+#convert{
+    cursor: pointer;
+    border-radius: 15px;
+}
+#convert:hover{
+    background-color: rgb(122, 97, 97);
+}
+
+.showsup{
+    margin-top: 20px;
+    border-radius: 20px;
+
+    width: 200px;
+    height: 100px;
+    margin-left: 560px;
+    padding: 20px;
+    background-color: gray;
+}
